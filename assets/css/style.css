@@ -3,6 +3,7 @@
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -147,7 +148,7 @@ section {
 }
 
 .hero-form button:hover {
-  background-color: var(-- t);  
+  background-color: var(--tertiary-color);  
 }
 
 .hero-form h3 {
@@ -216,8 +217,8 @@ section {
 
 .radio-wrapper label::after {
   content: "";
-  width: 20px;
   height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: var(--secondary-color);
   position: absolute;
@@ -271,7 +272,6 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
@@ -292,7 +292,6 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid var(--tertiary-color);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -472,7 +471,7 @@ section {
 .flex-row {
   display: flex;
 }
-
+/* Need to be altered to current project, use Run-Buddy as reference */
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
